@@ -1,5 +1,21 @@
 /* font-family: "Press Start 2P", system-ui; */
 /* font-family: "Manrope", sans-serif; */
+
+:root {
+    --context-green: #a8c780;
+    --white: #e3e7dd;
+    --grey-green: #b5bbb0;
+    --dark-green: #101612;
+    --green: #161d17;
+    --dark-dark-geen: #090d0b;
+
+}
+
+body {
+    background-color: var(--main-color);
+    padding: var(--main-padding);
+}
+
 .header {
 }
 .menu {
@@ -10,3 +26,4 @@
 }
 .anchor-link {
 }
+
