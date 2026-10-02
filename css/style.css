@@ -17,13 +17,34 @@ body {
 }
 
 .header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 80px;
 }
 .menu {
 }
 .menu__list {
+    display: flex;
 }
 .menu__item {
 }
 .anchor-link {
 }
-
+.logo {
+    color: var(--white);
+    text-decoration: none;
+    word-spacing: -3px;
+    display: flex;
+    align-items: center;
+}
+.logo__picture {
+    width: 31px;
+    height: 31px;
+}
+.logo__text {
+    font-size: 14px;
+    font-family: "Press Start 2P", system-ui;
+}
+.logo__text--color {
+    color: var(--context-green);
+}
