@@ -5,30 +5,39 @@
     --context-green: #a8c780;
     --white: #e3e7dd;
     --grey-green: #b5bbb0;
+    --grey-green-opacity: #b5bbb06a;
     --dark-green: #101612;
     --green: #161d17;
-    --dark-dark-geen: #090d0b;
+    --dark-dark-geen: #151e19;
 
 }
 
 body {
-    background-color: var(--main-color);
-    padding: var(--main-padding);
+    background-color: var(--dark-dark-geen);
 }
 
 .header {
     display: flex;
     justify-content: space-between;
-    padding: 0px 80px;
+    padding: 23px 80px;
+    border-bottom: 1px solid var(--grey-green-opacity);
+    align-items: center;
 }
 .menu {
 }
 .menu__list {
     display: flex;
+    gap: 40px;
+    
 }
 .menu__item {
 }
 .anchor-link {
+    text-decoration: none;
+    color: var(--grey-green);
+    font-size: 15px;
+    font-family: "Manrope", sans-serif;
+    padding: 20px 0px;
 }
 .logo {
     color: var(--white);
@@ -36,13 +45,14 @@ body {
     word-spacing: -3px;
     display: flex;
     align-items: center;
+    gap: 15px;
 }
 .logo__picture {
-    width: 31px;
-    height: 31px;
+    width: 33px;
+    height: 33px;
 }
 .logo__text {
-    font-size: 14px;
+    font-size: 17px;
     font-family: "Press Start 2P", system-ui;
 }
 .logo__text--color {
