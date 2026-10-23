@@ -43,6 +43,10 @@ body {
     position: relative;
 }
 
+.anchor-link:hover {
+    color: var(--white);
+}
+
 .anchor-link::after {
     content: "";
     display: none;
