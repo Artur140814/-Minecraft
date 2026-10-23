@@ -43,6 +43,10 @@ body {
     position: relative;
 }
 
+.anchor-link--active {
+    color: var(--white);
+}
+
 .anchor-link:hover {
     color: var(--white);
 }
@@ -60,6 +64,7 @@ body {
 
 .anchor-link--active::after{
     display: block;
+    
 }
 
 .logo {
@@ -82,6 +87,12 @@ body {
     color: var(--context-green);
 }
 
+.burger {
+    width: 30px;
+    height: 30px;
+    display: none;
+}
+
 /* .parent{
     width: 800px;
     height: 800px;
@@ -101,3 +112,12 @@ body {
     top: 80px;
     left: 120px;
 } */
+
+@media(max-width:768px) {
+    .menu {
+        display: none;
+    }
+    .burger {
+        display: block;
+    }
+}
