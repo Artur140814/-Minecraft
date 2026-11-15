@@ -171,12 +171,17 @@ main {
     .menu {
         position: absolute;
         top: 0;
-        right: 0;
+        right: -100%;
         height: 100vh;
         width: 40vw;
         background: linear-gradient(320deg,rgba(15, 46, 23, 1) 0%, rgba(54, 84, 21, 1) 50%, rgb(30, 105, 34) 100%);
         z-index: 4;
         padding-top: 130px;
+        transition: 0.5s;
+    }
+
+    .menu.open {
+        right: 0;
     }
 
     .menu__list {
@@ -204,10 +209,15 @@ main {
         height: 100vh;
         position: fixed;
         top: 0;
-        left: 0;
+        left: -100%;
         z-index: 3;
         background-color: #115d0e2f;
         backdrop-filter: blur(7px);
+        transition: 0.5s;
+    }
+
+    .menu__backdrop.open {
+        left: 0;
     }
 
     .burger {
@@ -219,4 +229,5 @@ main {
         border-bottom: 1px solid var(--grey-green-opacity);
     }
 }
+
 
