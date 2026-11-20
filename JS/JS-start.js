@@ -83,4 +83,5 @@ const backdrop = document.querySelector(".menu__backdrop")
 burgerElement.addEventListener("click", () => {
     menu.classList.toggle("open")
     backdrop.classList.toggle("open")
+    burgerElement.classList.toggle("open")
 })
