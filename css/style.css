@@ -15,7 +15,6 @@
 
 body {
     background-color: var(--dark-dark-geen);
-    height: 3000px;
 }
 
 .header {
@@ -30,7 +29,6 @@ body {
 
 main {
     padding-top: 130px;
-    font-size: 50px;
     color: #fff;
 }
 
@@ -149,26 +147,6 @@ main {
     top: 7px;
     transition: transform 0.3s, top 0.3s 0.3s
 }
-
-/* .parent{
-    width: 800px;
-    height: 800px;
-    border: 5px solid var(--grey-green-opacity);
-    margin-top: 400px;
-    position: relative;
-}
-
-.child{
-    width: 100px;
-    height: 100px;
-    background-color: aqua;
-}
-
-.child:nth-child(2){
-    position: absolute;
-    top: 80px;
-    left: 120px;
-} */
 
 @media(max-width:768px) {
     .menu {
