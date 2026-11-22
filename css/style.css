@@ -125,6 +125,7 @@ main {
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
+    transition: background-color 0.5s 0s;
 }
 
 .burger__line::after {
@@ -135,6 +136,7 @@ main {
     background-color: var(--white);
     position: absolute;
     top: -7px;
+    transition: transform 0.3s, top 0.3s 0.3s;
 }
 
 .burger__line::before {
@@ -145,6 +147,7 @@ main {
     background-color: var(--white);
     position: absolute;
     top: 7px;
+    transition: transform 0.3s, top 0.3s 0.3s
 }
 
 /* .parent{
@@ -243,6 +246,7 @@ main {
 
     .burger.open .burger__line {
         background-color: transparent;
+        transition: background-color 0.3s 0s;
     }
 }
 
